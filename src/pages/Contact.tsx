@@ -123,7 +123,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Phone</h3>
-                    <p className="text-muted-foreground">(817) 918-3666</p>
+                    <p className="text-muted-foreground">(215) 555-0100</p>
                     <p className="text-sm text-muted-foreground mt-1">
                       Call us for immediate assistance
                     </p>
@@ -150,9 +150,9 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold mb-1">Location</h3>
                     <p className="text-muted-foreground">
-                      123 Dental Plaza, Suite 100
+                      401 Commerce Drive, Suite 104 & 204
                       <br />
-                      Westlake, TX 76262
+                      Fort Washington, PA 19034
                     </p>
                   </div>
                 </div>
@@ -165,7 +165,7 @@ const Contact = () => {
                     <h3 className="font-semibold mb-1">Office Hours</h3>
                     <div className="text-sm text-muted-foreground space-y-1">
                       <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
-                      <p>Saturday: 9:00 AM - 2:00 PM</p>
+                      <p>Saturday: 9:00 AM - 3:00 PM</p>
                       <p>Sunday: Closed</p>
                     </div>
                   </div>
@@ -186,16 +186,21 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Map Placeholder */}
+      {/* Map */}
       <section className="py-20 bg-muted">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <div className="aspect-video bg-background rounded-lg shadow-lg flex items-center justify-center">
-              <div className="text-center text-muted-foreground">
-                <MapPin className="h-12 w-12 mx-auto mb-4" />
-                <p className="text-lg font-semibold">Interactive Map</p>
-                <p className="text-sm">Easy to find with ample parking</p>
-              </div>
+            <div className="aspect-video bg-background rounded-lg shadow-lg overflow-hidden">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3052.3658891837395!2d-75.19876!3d40.13789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6b7a9c8c8c8c8%3A0x1!2s401%20Commerce%20Dr%2C%20Fort%20Washington%2C%20PA%2019034!5e0!3m2!1sen!2sus!4v1234567890"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Elite Dental Implants Location"
+              />
             </div>
           </div>
         </div>
