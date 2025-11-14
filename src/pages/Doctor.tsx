@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { GraduationCap, Award, Heart, Stethoscope, Building2, TrendingUp } from "lucide-react";
+import { GraduationCap, Award, Heart, Stethoscope, Building2, TrendingUp, Phone } from "lucide-react";
 import drMonaStone from "@/assets/dr-mona-stone.jpg";
 import drNiranjanSavani from "@/assets/dr-niranjan-savani.jpg";
 import clinicInterior from "@/assets/clinic-interior.jpg";
@@ -29,6 +29,10 @@ const Doctor = () => {
             <div className="text-center mb-8">
               <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-2">Dr. Mona Stone</h2>
               <p className="text-lg text-muted-foreground">Oral and Maxillofacial Surgeon</p>
+              <p className="text-base text-primary font-semibold mt-2 flex items-center justify-center gap-2">
+                <Phone className="h-4 w-4" />
+                (610) 301-0309
+              </p>
             </div>
             
             <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 xl:gap-16 items-start mb-12">
