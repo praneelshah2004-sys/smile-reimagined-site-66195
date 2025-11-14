@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-lg font-bold text-primary mb-4">
-              Elite Dental Implants
+              Signature Smile
             </h3>
             <p className="text-sm text-muted-foreground mb-4">
               Transform your smile with advanced All-on-4 dental implant
@@ -63,7 +63,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-2">
                 <Mail className="h-4 w-4 mt-0.5 text-primary" />
-                <span>info@elitedentalimplants.com</span>
+                <span>info@signaturesmile.com</span>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-0.5 text-primary" />
@@ -78,7 +78,7 @@ const Footer = () => {
 
         <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
           <p>
-            &copy; {new Date().getFullYear()} Elite Dental Implants. All rights
+            &copy; {new Date().getFullYear()} Signature Smile. All rights
             reserved.
           </p>
         </div>

@@ -13,7 +13,7 @@ const Navigation = () => {
     { to: "/all-on-4", label: "All-on-4 Implants" },
     { to: "/benefits", label: "Benefits" },
     { to: "/gallery", label: "Gallery" },
-    { to: "/doctor", label: "Meet the Doctor" },
+    { to: "/doctor", label: "Meet the Doctors" },
     { to: "/contact", label: "Contact" },
   ];
 
@@ -23,7 +23,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16 sm:h-20 lg:h-24">
           <Link to="/" className="flex items-center space-x-2 flex-shrink-0">
             <div className="text-lg sm:text-xl lg:text-2xl font-bold text-primary">
-              Elite Dental Implants
+              Signature Smile
             </div>
           </Link>
 
