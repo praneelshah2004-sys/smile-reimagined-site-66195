@@ -5,7 +5,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { useState } from "react";
-import heroImage from "@/assets/hero-dental.jpg";
+import bannerImage from "@/assets/clinic-interior.jpg";
 
 const Contact = () => {
   const { toast } = useToast();
@@ -33,7 +33,7 @@ const Contact = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${heroImage})`,
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${bannerImage})`,
           }}
         />
         <div className="container mx-auto px-4 relative z-10 text-center">

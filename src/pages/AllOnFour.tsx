@@ -2,7 +2,7 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import procedureDiagram from "@/assets/procedure-diagram.jpg";
-import heroImage from "@/assets/hero-dental.jpg";
+import bannerImage from "@/assets/dental-implants.jpg";
 
 const AllOnFour = () => {
   return (
@@ -12,7 +12,7 @@ const AllOnFour = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${heroImage})`,
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${bannerImage})`,
           }}
         />
         <div className="container mx-auto px-4 relative z-10 text-center">

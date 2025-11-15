@@ -3,7 +3,7 @@ import { GraduationCap, Award, Heart, Stethoscope, Building2, TrendingUp, Phone 
 import drMonaStone from "@/assets/dr-mona-stone.jpg";
 import drNiranjanSavani from "@/assets/dr-niranjan-savani.jpg";
 import clinicInterior from "@/assets/clinic-interior.jpg";
-import heroImage from "@/assets/hero-dental.jpg";
+import bannerImage from "@/assets/dental-implants.jpg";
 
 const Doctor = () => {
   return (
@@ -13,7 +13,7 @@ const Doctor = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${heroImage})`,
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${bannerImage})`,
           }}
         />
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
