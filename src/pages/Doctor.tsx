@@ -3,22 +3,26 @@ import { GraduationCap, Award, Heart, Stethoscope, Building2, TrendingUp, Phone 
 import drMonaStone from "@/assets/dr-mona-stone.jpg";
 import drNiranjanSavani from "@/assets/dr-niranjan-savani.jpg";
 import clinicInterior from "@/assets/clinic-interior.jpg";
+import heroImage from "@/assets/hero-dental.jpg";
 
 const Doctor = () => {
   return (
     <main className="min-h-screen bg-background">
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary/10 via-background to-primary/5 py-12 sm:py-16 md:py-20 lg:py-24 overflow-hidden">
-        <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-foreground">
-              Meet the Doctors
-            </h1>
-            <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              Our Expert Team of Oral and Maxillofacial Surgeons
-            </p>
-          </div>
+      {/* Hero Section with Banner */}
+      <section className="relative h-[400px] flex items-center overflow-hidden">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${heroImage})`,
+          }}
+        />
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-white">
+            Meet the Doctors
+          </h1>
+          <p className="text-lg sm:text-xl md:text-2xl text-gray-200 leading-relaxed max-w-3xl mx-auto">
+            Our Expert Team of Oral and Maxillofacial Surgeons
+          </p>
         </div>
       </section>
 
