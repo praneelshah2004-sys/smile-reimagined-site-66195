@@ -12,7 +12,6 @@ const Navigation = () => {
     { to: "/", label: "Home" },
     { to: "/all-on-4", label: "All-on-4 Implants" },
     { to: "/benefits", label: "Benefits" },
-    { to: "/gallery", label: "Gallery" },
     { to: "/doctor", label: "Meet the Doctors" },
     { to: "/contact", label: "Contact" },
   ];

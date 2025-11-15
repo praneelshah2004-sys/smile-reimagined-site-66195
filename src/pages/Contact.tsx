@@ -5,6 +5,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { useState } from "react";
+import heroImage from "@/assets/hero-dental.jpg";
 
 const Contact = () => {
   const { toast } = useToast();
@@ -27,11 +28,17 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen">
-      {/* Header */}
-      <section className="bg-hero-gradient text-primary-foreground py-20">
-        <div className="container mx-auto px-4 text-center">
-          <h1 className="text-5xl font-bold mb-6">Contact Us</h1>
-          <p className="text-xl max-w-3xl mx-auto">
+      {/* Header with Banner */}
+      <section className="relative h-[400px] flex items-center">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${heroImage})`,
+          }}
+        />
+        <div className="container mx-auto px-4 relative z-10 text-center">
+          <h1 className="text-5xl font-bold mb-6 text-white">Contact Us</h1>
+          <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Ready to transform your smile? Get in touch to schedule your
             consultation
           </p>
