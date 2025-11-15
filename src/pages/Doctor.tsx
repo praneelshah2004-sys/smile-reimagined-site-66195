@@ -3,7 +3,7 @@ import { GraduationCap, Award, Heart, Stethoscope, Building2, TrendingUp, Phone 
 import drMonaStone from "@/assets/dr-mona-stone.jpg";
 import drNiranjanSavani from "@/assets/dr-niranjan-savani.jpg";
 import clinicInterior from "@/assets/clinic-interior.jpg";
-import bannerImage from "@/assets/dental-implants.jpg";
+import bannerImage from "@/assets/banner-doctors.jpg";
 
 const Doctor = () => {
   return (

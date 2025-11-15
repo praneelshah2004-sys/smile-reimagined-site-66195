@@ -11,7 +11,7 @@ import {
   Utensils,
   Users,
 } from "lucide-react";
-import bannerImage from "@/assets/procedure-diagram.jpg";
+import bannerImage from "@/assets/banner-benefits.jpg";
 
 const Benefits = () => {
   return (

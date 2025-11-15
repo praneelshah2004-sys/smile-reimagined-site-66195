@@ -5,7 +5,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { useState } from "react";
-import bannerImage from "@/assets/clinic-interior.jpg";
+import bannerImage from "@/assets/banner-contact.jpg";
 
 const Contact = () => {
   const { toast } = useToast();
